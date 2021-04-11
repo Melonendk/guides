@@ -10,10 +10,12 @@ top_link:
 <details>
 <summary>▼ Indhold (Klik mig)</summary>
 
-- [Kort Introduktion](#kort-introduktion)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Configuration](#configuration)
+<ul>
+<li><a href="#kort-introduktion">Kort Introduktion</a></li>
+<li><a href="#requirements">Requirements</a></li>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#configuration">Configuration</a></li>
+</ul>
 
 </details>
 
@@ -55,18 +57,18 @@ Nu skal du bare åbne minecraft og launche helt ind til settings etc.
 <summary>▼ <b>For Version 1.16.5 (Klik mig)</b></summary><br>
 
 Du klikker og laver custom profilen til minecraft version 1.16.5 og seneste forge version.<br>
-Du kan kalde den hvad du vil.
+Du kan kalde den hvad du vil.<br>
 
-Du skal nu klikke ind på custom profilen og ikke starte minecraft endu.
+Du skal nu klikke ind på custom profilen og ikke starte minecraft endu.<br>
 
 Nu skal vi lige hente modded så du kan køre det, du henter det  [HER](https://www.curseforge.com/minecraft/mc-mods/twitchspawn) ved at klikke på download oppe til højre på siden.<br>
-Den skulle gerne hente en Jar fil som er modded som vi skal bruge lige om lidt.
+Den skulle gerne hente en Jar fil som er modded som vi skal bruge lige om lidt.<br>
 
-Du skal nu gå tilbage til curseforge og klikke på de 3 Dots ved siden af play/spil og klikke open folder.
+Du skal nu gå tilbage til curseforge og klikke på de 3 Dots ved siden af play/spil og klikke open folder.<br>
 
-Din stifinder skulle gerne åbne en mappe med en masse i, du skal nu tage den den jar fil vi lige har hentet og smide i den mappe som hedder mods (Hvis der ikke er en så lav den)
+Din stifinder skulle gerne åbne en mappe med en masse i, du skal nu tage den den jar fil vi lige har hentet og smide i den mappe som hedder mods (Hvis der ikke er en så lav den)<br>
 
-Når det er gjort skal du inde i curseforge åbne spille og launche helt ind til minecraft.
+Når det er gjort skal du inde i curseforge åbne spille og launche helt ind til minecraft.<br>
 
 <h4 style="margin-bottom:1rem;"><b>Tillykke du har nu installeret Twitch spawn</b></h4>
 
