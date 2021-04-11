@@ -1,7 +1,7 @@
 ---
 layout: default
 title: TwitchSpawn Server Setup
-description: "Minecraft Version: 1.16.4/1.16.5 - Multiplayer player - Last updated: 11/04/2021"
+description: "Minecraft Version: 1.16.4/1.16.5 - Server - Last updated: 11/04/2021"
 show_top_links: true
 top_link:
   back_url: /minecraft
