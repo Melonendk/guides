@@ -1,3 +1,8 @@
+---
+layout: default
+title: Melonendk - Guides
+---
+
 ## Velkommen til!
 
 Her finder du guides til lidt af hvert, Lige fra minecraft, grafik og andre små ting som jeg laver.
