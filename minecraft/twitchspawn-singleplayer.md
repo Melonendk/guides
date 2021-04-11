@@ -105,8 +105,8 @@ Du skal også ædnre `moderatorsMinecraft` & `minecraftNick` til dit minecraftna
 
 Du skal nu ændre `platform` til endten `StreamElements` eller `StreamLabs`, Alt efter hvad du bruger skal du åbne den guide under her som passer til din platform for at hente den token du kan bruge.
 
-<details>
-<summary style="margin-bottom:0.5rem;">▼ <b>StreamElements Token</b></summary><br>
+<details style="margin-bottom:0.5rem;">
+<summary>▼ <b>StreamElements Token</b></summary><br>
 
 Stream elements token finder du her:<br>
 
