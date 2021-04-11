@@ -75,3 +75,25 @@ Når det er gjort skal du inde i curseforge åbne spille og launche helt ind til
 </details>
 
 ## Configuration
+
+Nu skal vi redigere en del filer så jeg håber du har fået installeret en text editor eller kan bruge notepad.
+
+Vi skal nu tilbage til spil mappen for curseforge versionen med TwitchSpawn. Du skal nu gå tilbage til curseforge og klikke ind på den profil som vi lavde tidligere, (ikke start spillet op men klik ind på profilen) og klikke på de 3 Dots ved siden af play/spil og klikke open folder.
+
+Nu burde du se en masse filer dog skal vi skal ind i denne stig/mappe `../configs/TwitchSpawn`
+
+Du burde nu kunne se 5 filer inde i mappen som vi skal tage et kig på.
+
+Den første fil vi tager et kig på er `preferences.toml`<br>
+Dette er filen som man ligsom i minecraft er for indstillingerne.
+
+Når du åbner filen kan du læse om de forskellige indstillinger. dem vil jeg lade dig selv sætte. dog vil jeg sætte mine preferæncer under her
+
+<details>
+<summary>▼ <b>preferences.toml</b></summary><br>
+
+```toml
+OH HI OH MY
+```
+
+</details><br>
