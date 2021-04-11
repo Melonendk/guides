@@ -21,10 +21,14 @@ top_link:
 
 ## Kort Introduktion
 
+<hr/>
+
 Twitch spawn er et mod til minecraft som lytter til live events relatered fra din twitch. Både alerts, donations etc. Du kan læse mere om <a href="https://igoodie.gitbook.io/twitchspawn/" target="_blank">Twitch spawn her</a>
 De har også selv en fin guide til at sette det op som du kan finde <a href="https://igoodie.gitbook.io/twitchspawn/basics/getting-started" target="_blank">HER</a>
 
 ## Requirements
+
+<hr/>
 
 Vi tager udgangs punk i du har java installeret så du kan spille minecraft.
 
@@ -32,6 +36,8 @@ Vi tager udgangs punk i du har java installeret så du kan spille minecraft.
 - En text editor - Jeg anbefaler <a href="https://notepad-plus-plus.org/downloads/" target="_blank">Notepad++</a> eller <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>
 
 ## Installation
+
+<hr/>
 
 Når du har fået installeret curseforge og åbnet det, skal du finde minecraft på listen og klikke på det.
 Nu skal vi lave en custom profil men du skal finde ud af hvilken minecraft version du skal bruge, jeg har 2 forskellige versioner under her da developeren ikke har opdateret det til version 1.16.5 i curseforge.
@@ -76,6 +82,8 @@ Når det er gjort skal du inde i curseforge åbne spille og launche helt ind til
 
 ## Configuration
 
+<hr/>
+
 Nu skal vi redigere en del filer så jeg håber du har fået installeret en text editor eller kan bruge notepad.
 
 Vi skal nu tilbage til spil mappen for curseforge versionen med TwitchSpawn. Du skal nu gå tilbage til curseforge og klikke ind på den profil som vi lavde tidligere, (ikke start spillet op men klik ind på profilen) og klikke på de 3 Dots ved siden af play/spil og klikke open folder.
@@ -83,6 +91,8 @@ Vi skal nu tilbage til spil mappen for curseforge versionen med TwitchSpawn. Du 
 Nu burde du se en masse filer dog skal vi skal ind i denne stig/mappe `../configs/TwitchSpawn`
 
 Du burde nu kunne se 5 filer inde i mappen som vi skal tage et kig på.
+
+<hr/>
 
 Den første fil vi kigger på er `credentials.toml`
 Du burde til at starte med at rydde hele filen til at ligne dette.
@@ -130,7 +140,9 @@ Den token den giver igen smider du bare i `tokenChat`
 
 Nu er credentials sat op. så nu kan vi gå vidre.
 
-Den tredje fil vi tager et kig på er `preferences.toml`<br>
+<hr/>
+
+Den anden fil vi tager et kig på er `preferences.toml`<br>
 Dette er filen som man ligsom i minecraft er for indstillingerne.
 
 Når du åbner filen kan du læse om de forskellige indstillinger. dem vil jeg lade dig selv sætte. dog vil jeg sætte mine preferæncer under her
@@ -148,4 +160,10 @@ Når du åbner filen kan du læse om de forskellige indstillinger. dem vil jeg l
 
 </details><br>
 
-Så de sidste 2 filer `messages.title.json`, `messages.subtitle.json` er for de beskeder som dukker op i når du modtager en donation etc. Hvordan det skal stå i minecraft når du modtager det på stream. Så det skal du selv indstille.
+<hr/>
+
+Så 2 filer `messages.title.json`, `messages.subtitle.json` er for de beskeder som dukker op i når du modtager en donation etc. Hvordan det skal stå i minecraft når du modtager det på stream. Så det skal du selv indstille.
+
+<hr/>
+
+Den sidste fil er `rules.default.tsl`, De
