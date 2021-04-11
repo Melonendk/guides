@@ -7,4 +7,4 @@ Du kan altid få support / hjælp på min discord server(CKyd3uZG2g): [https://d
 
 ## Guide list
 
-- [minecraft](minecraft)
+- [Minecraft](minecraft)
