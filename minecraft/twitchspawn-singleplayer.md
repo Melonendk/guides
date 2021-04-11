@@ -7,6 +7,15 @@ top_link:
   back_url: /minecraft
 ---
 
+<details>
+<summary>▼ Indhold (Klik mig)</summary>
+
+- [Kort Introduktion](#kort-introduktion)
+- [Requirements](#requirements)
+- [Installation](#installation)
+
+</details>
+
 ## Kort Introduktion
 
 Twitch spawn er et mod til minecraft som lytter til live events relatered fra din twitch. Både alerts, donations etc. Du kan læse mere om <a href="https://igoodie.gitbook.io/twitchspawn/" target="_blank">Twitch spawn her</a>
@@ -19,7 +28,7 @@ Vi tager udgangs punk i du har java installeret så du kan spille minecraft.
 - <a href="https://curseforge.overwolf.com/" target="_blank">CurseForge</a> - Gør det lettere at installere modded.
 - En text editor - Jeg anbefaler <a href="https://notepad-plus-plus.org/downloads/" target="_blank">Notepad++</a> eller <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>
 
-## Installation af Twitch spawn
+## Installation
 
 Når du har fået installeret curseforge og åbnet det, skal du finde minecraft på listen og klikke på det.
 Nu skal vi lave en custom profil men du skal finde ud af hvilken minecraft version du skal bruge, jeg har 2 forskellige versioner under her da developeren ikke.
@@ -38,8 +47,7 @@ Og så klikker du installer.
 
 Nu skal du bare åbne minecraft.
 
-### **Tillykke du har nu installeret Twitch spawn**
-
+<h3 style="margin-bottom:1rem;"><b>Tillykke du har nu installeret Twitch spawn</b></h3>
 </details>
 
 <details>
