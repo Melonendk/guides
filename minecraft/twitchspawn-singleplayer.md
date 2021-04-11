@@ -84,16 +84,68 @@ Nu burde du se en masse filer dog skal vi skal ind i denne stig/mappe `../config
 
 Du burde nu kunne se 5 filer inde i mappen som vi skal tage et kig på.
 
-Den første fil vi tager et kig på er `preferences.toml`<br>
+Den første fil vi kigger på er `credentials.toml`
+Du burde til at starte med at rydde hele filen til at ligne dette.
+<pre>
+moderatorsTwitch = [ "twitchchannel" ]
+moderatorsMinecraft = [ "ingamenavn" ]
+
+[[streamers]]
+  minecraftNick = "ingamenavn"
+  twitchNick = "twitchchannel"
+  platform = "ALTERTprogram"
+  token = "YOUR_TOKEN"
+  tokenChat = "YOUR_CHAT_TOKEN"
+</pre>
+
+Først skal vi lige ændre nogen ting i filen inden vi henter alt andet vi skal bruge for at læse alerts.
+
+Du skal tilføje dit twitch navn i `moderatorsTwitch` & `twitchNick` så twitchchannel istedet er din kanal.<br>
+Du skal også ædnre `moderatorsMinecraft` & `minecraftNick` til dit minecraftnavn.
+
+Du skal nu ændre `platform` til endten `StreamElements` eller `StreamLabs`, Alt efter hvad du bruger skal du åbne den guide under her som passer til din platform for at hente den token du kan bruge.
+
+<details>
+<summary>▼ <b>StreamElements Token</b></summary><br>
+
+Stream elements token finder du her:
+
+Når du har kopiret token skal du smide den i `token`
+
+</details>
+
+<details>
+<summary>▼ <b>Stream labs Token</b></summary><br>
+
+Du skal bruge streamlabs api token hvilket du finder her:
+
+Når du har kopiret token skal du smide den i `token`
+
+</details><br>
+
+Dette er optional, Så hvis du ikke bruger den fjerne du bare linjen.<br>
+`tokenChat` er for hvis din chat skal kunne indløse channel points.<br>
+Du kan skaffe en her: [https://twitchapps.com/tmi/](https://twitchapps.com/tmi/)<br>
+Den token den giver igen smider du bare i `tokenChat`
+
+Nu er credentials sat op. så nu kan vi gå vidre.
+
+Den tredje fil vi tager et kig på er `preferences.toml`<br>
 Dette er filen som man ligsom i minecraft er for indstillingerne.
 
 Når du åbner filen kan du læse om de forskellige indstillinger. dem vil jeg lade dig selv sætte. dog vil jeg sætte mine preferæncer under her
 
 <details>
 <summary>▼ <b>preferences.toml</b></summary><br>
-
-```toml
-OH HI OH MY
-```
+<pre>
+  messageDisplay="chat"
+  notificationDelay=500
+  chatWarnings="disabled"
+  notificationVolume=0.4
+  indicatorDisplay="disabled"
+  autoStart="disabled"
+</pre>
 
 </details><br>
+
+Så de sidste 2 filer `messages.title.json`, `messages.subtitle.json` er for de beskeder som dukker op i når du modtager en donation etc. Hvordan det skal stå i minecraft når du modtager det på stream. Så det skal du selv indstille.
