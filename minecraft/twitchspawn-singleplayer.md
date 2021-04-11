@@ -106,22 +106,22 @@ Du skal også ædnre `moderatorsMinecraft` & `minecraftNick` til dit minecraftna
 Du skal nu ændre `platform` til endten `StreamElements` eller `StreamLabs`, Alt efter hvad du bruger skal du åbne den guide under her som passer til din platform for at hente den token du kan bruge.
 
 <details>
-<summary>▼ <b>StreamElements Token</b></summary><br>
+<summary style="margin-bottom:0.5rem;">▼ <b>StreamElements Token</b></summary><br>
 
-Stream elements token finder du her:
+Stream elements token finder du her:<br>
 
 Når du har kopiret token skal du smide den i `token`
 
 </details>
 
-<details>
+<details style="margin-bottom:0.5rem;">
 <summary>▼ <b>Stream labs Token</b></summary><br>
 
-Du skal bruge streamlabs api token hvilket du finder her:
+Du skal bruge streamlabs api token hvilket du finder her:<br>
 
 Når du har kopiret token skal du smide den i `token`
 
-</details><br>
+</details>
 
 Dette er optional, Så hvis du ikke bruger den fjerne du bare linjen.<br>
 `tokenChat` er for hvis din chat skal kunne indløse channel points.<br>
