@@ -1,6 +1,4 @@
----
-title: Minecraft Guides
----
+# Minecraft Guides 
 
 ### Singleplayer
 
