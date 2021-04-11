@@ -1,5 +1,5 @@
 ---
 layout: default
-title: Twitch Spawn
+title: Setup Twitch Spawn
 description: Singleplayer Guide.
 ---
