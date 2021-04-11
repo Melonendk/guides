@@ -1,37 +1,10 @@
-## Welcome to GitHub Pages
+# Velkommen til!
 
-You can use the [editor on GitHub](https://github.com/Melonendk/guides/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Her finder du guides til lidt af hvert, Lige fra minecraft, grafik og andre små ting som jeg laver.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Support?
+Du kan altid få support / hjælp på min discord server(CKyd3uZG2g): [https://discord.gg/CKyd3uZG2g](https://discord.gg/CKyd3uZG2g)
 
-### Markdown
+## Guide list
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Melonendk/guides/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- [Minecraft](/Minecraft)
