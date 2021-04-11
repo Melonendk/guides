@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Minecraft Guides
+show_top_links: true
 ---
 
 ### Singleplayer
