@@ -1,3 +1,6 @@
 theme: jekyll-theme-cayman
 title: "Guides"
 show_downloads: "false"
+
+github:
+  is_project_page: false
