@@ -235,5 +235,3 @@ Når du har det er det bare at gå ind i en single player verden og skrive `/ts 
 TILYKKE du har nu sat twitch spawn helt op fra bunden og det meget gerne skulle køre nu.
 
 har du problemer er du altid velkommen til at gå i support og skrive
-
-<a href="https://discord.gg/CKyd3uZG2g" class="btn" target="_blank">Support</a>
