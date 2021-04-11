@@ -15,6 +15,9 @@ top_link:
 <li><a href="#requirements">Requirements</a></li>
 <li><a href="#installation">Installation</a></li>
 <li><a href="#configuration">Configuration</a></li>
+<li><a href="#testing">Testing</a></li>
+<li><a href="#go-live">Go live</a></li>
+<li><a href="#lige-det-sidste">Lige det sidste</a></li>
 </ul>
 
 </details>
@@ -111,7 +114,7 @@ moderatorsMinecraft = [ "ingamenavn" ]
 Først skal vi lige ændre nogen ting i filen inden vi henter alt andet vi skal bruge for at læse alerts.
 
 Du skal tilføje dit twitch navn i `moderatorsTwitch` & `twitchNick` så twitchchannel istedet er din kanal.<br>
-Du skal også ædnre `moderatorsMinecraft` & `minecraftNick` til dit minecraftnavn.
+Du skal også ædnre `moderatorsMinecraft` & `minecraftNick` til dit minecraftnavn. OBS Den er case sensistiv så store og små bogstaver GÆLDER for minecraft navne!
 
 Du skal nu ændre `platform` til endten `StreamElements` eller `StreamLabs`, Alt efter hvad du bruger skal du åbne den guide under her som passer til din platform for at hente den token du kan bruge.
 
@@ -149,6 +152,7 @@ Når du åbner filen kan du læse om de forskellige indstillinger. dem vil jeg l
 
 <details>
 <summary>▼ <b>preferences.toml</b></summary><br>
+
 <pre>
   messageDisplay="chat"
   notificationDelay=500
@@ -158,7 +162,7 @@ Når du åbner filen kan du læse om de forskellige indstillinger. dem vil jeg l
   autoStart="disabled"
 </pre>
 
-</details><br>
+</details>
 
 <hr/>
 
@@ -166,4 +170,70 @@ Så 2 filer `messages.title.json`, `messages.subtitle.json` er for de beskeder s
 
 <hr/>
 
-Den sidste fil er `rules.default.tsl`, De
+Den sidste fil er `rules.default.tsl`, denne fil kort og det lange er der du styre hvad der skal ske i spillet når du eksempel får en ny subscriber, nogen donere bits/penge eller gifted subs, generalt ALT.
+
+Udvikleren bag modded har lavet sit eget sprog til pluginnet så det skulle være det at forstå, jeg linker dog så du kan læse mere om det her så du kan læse hvordan det funger. [https://igoodie.gitbook.io/twitchspawn/twitchspawn-language/tsl-basics](https://igoodie.gitbook.io/twitchspawn/twitchspawn-language/tsl-basics)
+
+For at teste og give dig en ide til hvordan det funger skal du bare slette det hele i filen og smide denne her ind
+
+<pre>
+SUMMON minecraft:pig
+  ON Twitch Follow
+</pre>
+
+Det vi generalt siger her er at når en person følger din kanal skal den spawne en gris.
+
+> Hvis du ønsker hjælp til noget er du altid velkommen til at skriv i support på min discord så svarer jeg hurtigts muligt.
+
+## Testing
+
+<hr/>
+
+Nu hvor vi har fået det hele sat op og gjort det kan du nu åbne minecraft med modded så vi kan teste om det hele funger.
+
+> OBS Dette funger ikke på servere med mindre de har installeret det på serveren og fået sat dine credentials ind.
+
+Lav nu en minecraft verden med creative på og gå ind i den.<br>
+Når du så er inde skulle der gerne ticke en box frem der siger om twitch spawn er aktiveret eller deaktiveret. (alt efter om du har autostart til eller ej.)
+
+<hr/>
+
+Der er 2 måder at teste på, alt efter hvilken platform du bruger, hvis du bruger stream elements kan du kun bruge simulate da man ikke kan sende test alerts igennem.
+
+Hvis du har streamlabs gå hen i minecraft og skriv `/ts start` for at starte twich spawn det samme med `/ts stop` så stopper du det.
+
+Hvis det lykkedes vil den komme op og sige det er started.<br>
+du kan nu inde på stream labs side og trykke på follow så skulle den gerne når du går tilbage til minecraft have spawned en gris ved dig.
+
+<hr/>
+
+Hvis du tilgengæld bruger streamelements skal du benytte dig at `/ts simulate`, dette kræver ikke at du har twitchspawn som også køre.
+
+Skriv følgende commando `/ts simulate {event:"Twitch Follow"}`
+og så skulle den gerne sige hvis det lykkedes eller ej.
+
+<hr/>
+
+Hvis der ikke spawner nogen gris kan det være fordi minecraft navn er forkert eller andre ting. evnt reach out på min discord så finder vi ud af det.
+
+<hr/>
+
+Når du laver ændringer i `rules.default.tsl` skal du ikke lukke spillet ned og op igen, du skal bare stope twitch spawn `/ts stop`, og derefter skrive `/ts reloadcfg` du skulle meget gerne se det poppe op. Hvis er er fejl i filen vil den sige det ellers vil den sige success og du så kan starte igen `/ts start`
+
+## Go live
+
+<hr/>
+
+Nu hvor vi lidt har tested det så er der bare for dig at skrive dine egne rules og have det sjovt.
+
+Når du har det er det bare at gå ind i en single player verden og skrive `/ts start` så du live og den tracker alt hvad der sker på din stream også selv om du er offline.
+
+## Lige det sidste
+
+<hr/>
+
+TILYKKE du har nu sat twitch spawn helt op fra bunden og det meget gerne skulle køre nu.
+
+har du problemer er du altid velkommen til at gå i support og skrive
+
+<a href="https://discord.gg/CKyd3uZG2g" class="btn" target="_blank">Support</a>
