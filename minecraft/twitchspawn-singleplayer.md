@@ -25,16 +25,14 @@ Når du har fået installeret curseforge og åbnet det, skal du finde minecraft 
 Nu skal vi lave en custom profil men du skal finde ud af hvilken minecraft version du skal bruge, jeg har 2 forskellige versioner under her da developeren ikke.
 
 <details>
-<summary>For Version 1.16.4 (Klik mig)</summary>
+<summary>For Version 1.16.4 (Klik mig)</summary><br>
 
-Du klikker og laver custom profilen til minecraft version 1.16.4 og seneste forge version.<br>
-Du kan kalde den hvad du vil.
-
-Når det så er gjort og den er installeret osv, skal du klikke ind på selve profilen og ikke klik spil/play endu.
-
-I højre side ser du en puzzle peice hvor der står add more content, klik den.<br>
+> Du klikker og laver custom profilen til minecraft version 1.16.4 og seneste forge version.<br>
+Du kan kalde den hvad du vil.<br><br>
+Når det så er gjort og den er installeret osv, skal du klikke ind på selve profilen og ikke klik spil/play endu.<br>
+I højre side ser du en puzzle peice hvor der står add more content, klik den.<br><br>
 Nu skal du så søge efter: **"TwitchSpawn"**<br>
-Og så klikker du indstaller.
+Og så klikker du installer.
 </details><br>
 
 <details>
